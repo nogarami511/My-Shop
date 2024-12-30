@@ -21,6 +21,7 @@ const CartItem = (props) => {
         quantity: quantity + 1
     }));
   }
+  console.log(error);
 
   useEffect(() => {
     fetch('https://api.escuelajs.co/api/v1/products')

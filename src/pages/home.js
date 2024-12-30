@@ -17,7 +17,7 @@ const Home = () => {
         .then((data) => setProducts(data)) 
         .catch((error) => setError(error.message)); 
     }, []); 
-
+    console.log(error);
   return (
     <div>
       <h1 className='text-3xl my-5'>Lista de Productos</h1>

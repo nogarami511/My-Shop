@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { changeQuantity } from '../store/cart';
 import iconCart from '../assets/images/carro-de-la-compra.png';
 import { useParams } from 'react-router-dom';
 import { addToCart } from '../store/cart';
