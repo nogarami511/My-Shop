@@ -14,7 +14,7 @@ const ProductCart = (props) => {
         quantity: 1
     }));
   }
-
+  console.log(carts);
   return (
     <div className="bg-white p-5 rounded-xl shadow-sm">
        <Link to={`/${id}`}>
